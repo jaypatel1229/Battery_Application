@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15B5B0"
+    
+    >
+
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal">
+    
+       <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery State"
+        android:id="@+id/bState"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:backgroundTint="#F51720"    
+            />
+
+       <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery Power Source"
+        android:id="@+id/bSource"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:backgroundTint="#F51720"    
+            />
+   
+    </LinearLayout>
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:id="@+id/text1"/>
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:id="@+id/text2"/>
+    
+      
+  
+
+</LinearLayout>
